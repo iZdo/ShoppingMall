@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_list_item"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/drawee_view"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        app:viewAspectRatio="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/drawee_view"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/firebrick"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/bigRedButton"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginTop="10dp"
+            android:text="立即购买"
+            android:textSize="10sp"
+            android:elevation="14dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

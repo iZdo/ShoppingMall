@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#802f4f4f"
+        android:gravity="center_vertical"
+        android:paddingBottom="6dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="6dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_all"
+            style="@style/customCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            android:textSize="12sp"
+            android:text="全选"/>
+
+        <Button
+            android:id="@+id/btn_order"
+            style="@style/bigRedButton"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:minHeight="60dp"
+            android:minWidth="120dp"
+            android:text="去结算"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_del"
+            style="@style/bigRedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:minHeight="60dp"
+            android:minWidth="120dp"
+            android:text="删除"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/txt_total"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/checkbox_all"
+            android:layout_marginLeft="39dp"
+            android:layout_toEndOf="@+id/checkbox_all"
+            android:layout_toRightOf="@+id/checkbox_all"
+            android:gravity="center"
+            android:text="合计"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

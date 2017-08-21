@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3141db0863501225b4fef11a284230907588e66">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_123801faf09ecb80bdcb3ad1fda74c4da4693355\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_fc0e424d37156e7353752047fdd0389c9828960a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_7806f06aaeb4d7e2a323fdbb695e93b799761bd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Z-\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_cb10474949076e22807de6a6a983154e8c5cc217\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.daimajia.slider-library-1.1.5_7df0a311f5058cd289335885efa6fb210cc13642\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.cjj.materialrefeshlayout\library\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="597d857fe9b090c4582f0855a2c6d6cc45fec544">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.cjj.materialrefeshlayout-library-1.3.0_d131ffa06d958101fb28b05bec205e70f4e7e901\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.3.1_4b57d17819fc76aca9fc77520e9d7315d57ec131\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Z-\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.1\2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0\gson-2.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.1_b7439c7d06ab2226a80ec8c99112db90b1fa4a96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_3036b507f6ca7eea7266ec6f548c68ba1ee14ce3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_b8b48141ba2b58047191d53b90e98d26923cb320\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_ba1beded4079d19a94408f869a0c44bce7b8e6e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="32c09ca4ddf07c3fc37d7edb3ed49d4b7e378df2">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f877bf4405d085adf476015b038418db6c4e5954\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Z-\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_d0dda52e818b8c9fad3665dca76c144b52b0fc55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_64e269594a5a5819db37150405b4d4e702270d94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.3.1_4b03446b82055369ea31def4ff4249f010040f24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da8b8f3f1fed75b39f0b9228bea5512f10bfff6f">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fresco-1.5.0_94251e2118f69f95882c569a3a859b0f82e43045\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_b1e982bcc4e18e44d60fc4babd3f1b152215bbfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_5bedd18ee9f3528da8ac02d2eb8090e331538a4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9644834bb403cfd73f5695b908a933c1ff236217">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-drawee-1.5.0_1601a3675b721cddd237c5cd8f7a74759f652292\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.orhanobut\logger\2.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3da801940221b852f3a3ee82bfe2a10d39e4ffa">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.orhanobut-logger-2.1.1_d11109be67617ec6c058b827d435e8968873ceee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe75606aa9485cd20177894c204291a79a0cc7ab">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jiechic.library-xUtils-2.6.14_1b982ca43517edadd7822d987286d549365cb8d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Z-\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_f7c8f426103bec16dfe3ebd5d41f0efc74a442c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bf2709be142a2d0784d5e548842026dc28079dc">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-base-1.5.0_da51cacbcbaed3c2ec6d65a2d8181cbc59ffa759\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9602d1e79216cd0e61d22fad40caee64365f29ac">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-1.5.0_55820e1a7bc914ca452b16f578f41c79904544e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c6d36281ce1c28ebeb58155c3ceac425dcec5e2">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fbcore-1.5.0_6617b366da69e096fadc54f19921626066d617e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Z-\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.5\7a15a7db50f86c4b64aa3367424a60e3a325b8f1\okhttp-2.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.7.5_3f4d1114044d2aa0fd2ad974c4ee2b216ba48183\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.github.d-max\spots-dialog\0.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf94678214d9ab43a8deb5df90d0b3e6d619ff1e">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.d-max-spots-dialog-0.7_33886c36aafa016b979b897874ce6d288a3aa0ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\study\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_2143e80726daf42e97e5217a25f58e64c5491382\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_da72fbd37adfcc9219aceb65358e844124ce59ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Z-\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_6930d899195f856c190bb7e855427682cdc593e8\classes.dex" />
+    </item>
+
+</items>
