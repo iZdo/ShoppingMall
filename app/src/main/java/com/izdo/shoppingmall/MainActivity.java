@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
         for (Tab tab : mTabs) {
 
-            TabHost.TabSpec tabSpec = mTabHost.newTabSpec(tab.getTitle() + "");
+            TabHost.TabSpec tabSpec = mTabHost.newTabSpec(getString(tab.getTitle()));
 
             tabSpec.setIndicator(buildIndicator(tab));
 
