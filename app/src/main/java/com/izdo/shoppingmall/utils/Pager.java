@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * 数据刷新加载工具类
  * Created by iZdo on 2017/8/20.
  */
 
@@ -55,7 +56,6 @@ public class Pager {
     }
 
     private void initRefreshLayout() {
-
 
         builder.mRefreshLayout.setLoadMore(builder.canLoadMore);
 

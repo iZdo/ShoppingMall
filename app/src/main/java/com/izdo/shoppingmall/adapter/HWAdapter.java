@@ -37,15 +37,17 @@ public class HWAdapter extends SimpleAdapter<Wares> {
         viewHolder.getTextView(R.id.text_price).setText(wares.getPrice() + "元");
 
         Button button = viewHolder.getButton(R.id.btn_add);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        if (button != null) {
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                provider.put(convertData(wares));
+                    provider.put(convertData(wares));
 
-                ToastUtils.show(context, "已添加到购物车");
-            }
-        });
+                    ToastUtils.show(context, "已添加到购物车");
+                }
+            });
+        }
     }
 
     public ShoppingCart convertData(Wares item) {
@@ -59,5 +61,11 @@ public class HWAdapter extends SimpleAdapter<Wares> {
         cart.setPrice(item.getPrice());
 
         return cart;
+    }
+
+    public void resetLayout(int layoutId) {
+
+        this.layoutResId = layoutId;
+        notifyItemRangeChanged(0, getDatas().size());
     }
 }

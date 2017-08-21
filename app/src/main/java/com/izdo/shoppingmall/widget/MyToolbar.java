@@ -92,6 +92,11 @@ public class MyToolbar extends Toolbar {
         }
     }
 
+    public void  setRightButtonIcon(int icon){
+
+        setRightButtonIcon(getResources().getDrawable(icon));
+    }
+
     public void setRightButtonOnClickListener(OnClickListener li) {
 
         mRightButton.setOnClickListener(li);
