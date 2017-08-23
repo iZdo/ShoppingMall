@@ -5,6 +5,7 @@ import android.util.SparseArray;
 
 import com.google.gson.reflect.TypeToken;
 import com.izdo.shoppingmall.bean.ShoppingCart;
+import com.izdo.shoppingmall.bean.Wares;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +46,12 @@ public class CartProvider {
 
         datas.put(cart.getId().intValue(), temp);
         commit();
+    }
+
+    public void put(Wares wares) {
+
+        ShoppingCart cart = convertData(wares);
+        put(cart);
     }
 
     /**
@@ -124,5 +131,19 @@ public class CartProvider {
         }
 
         return carts;
+    }
+
+
+    public ShoppingCart convertData(Wares item) {
+
+        ShoppingCart cart = new ShoppingCart();
+
+        cart.setId(item.getId());
+        cart.setDescription(item.getDescription());
+        cart.setImgUrl(item.getImgUrl());
+        cart.setName(item.getName());
+        cart.setPrice(item.getPrice());
+
+        return cart;
     }
 }

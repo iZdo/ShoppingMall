@@ -1,5 +1,6 @@
 package com.izdo.shoppingmall.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -13,6 +14,8 @@ import com.cjj.MaterialRefreshLayout;
 import com.google.gson.reflect.TypeToken;
 import com.izdo.shoppingmall.Contants;
 import com.izdo.shoppingmall.R;
+import com.izdo.shoppingmall.WareDetailActivity;
+import com.izdo.shoppingmall.adapter.BaseAdapter;
 import com.izdo.shoppingmall.adapter.HWAdapter;
 import com.izdo.shoppingmall.adapter.decoration.DividerItemDecoration;
 import com.izdo.shoppingmall.bean.Page;
@@ -46,6 +49,21 @@ public class HotFragment extends Fragment {
                     @Override
                     public void load(List datas, int totalPage, int totalCount) {
                         mAdapter = new HWAdapter(getContext(), datas);
+
+                        mAdapter.setOnItemClickListener(new BaseAdapter.OnItemClickListener() {
+                            @Override
+                            public void onItemClick(View view, int position) {
+
+                                Wares wares = mAdapter.getItem(position);
+
+                                Intent intent = new Intent(getActivity(), WareDetailActivity.class);
+
+                                intent.putExtra(Contants.WARE, wares);
+
+                                startActivity(intent);
+
+                            }
+                        });
 
                         mRecyclerView.setAdapter(mAdapter);
 

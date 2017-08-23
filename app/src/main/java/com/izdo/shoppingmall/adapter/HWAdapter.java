@@ -7,7 +7,6 @@ import android.widget.Button;
 
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.izdo.shoppingmall.R;
-import com.izdo.shoppingmall.bean.ShoppingCart;
 import com.izdo.shoppingmall.bean.Wares;
 import com.izdo.shoppingmall.utils.CartProvider;
 import com.izdo.shoppingmall.utils.ToastUtils;
@@ -42,25 +41,12 @@ public class HWAdapter extends SimpleAdapter<Wares> {
                 @Override
                 public void onClick(View view) {
 
-                    provider.put(convertData(wares));
+                    provider.put(wares);
 
                     ToastUtils.show(context, "已添加到购物车");
                 }
             });
         }
-    }
-
-    public ShoppingCart convertData(Wares item) {
-
-        ShoppingCart cart = new ShoppingCart();
-
-        cart.setId(item.getId());
-        cart.setDescription(item.getDescription());
-        cart.setImgUrl(item.getImgUrl());
-        cart.setName(item.getName());
-        cart.setPrice(item.getPrice());
-
-        return cart;
     }
 
     public void resetLayout(int layoutId) {
