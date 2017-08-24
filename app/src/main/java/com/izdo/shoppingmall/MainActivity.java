@@ -22,6 +22,8 @@ import com.izdo.shoppingmall.widget.MyToolbar;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.view.View.GONE;
+
 public class MainActivity extends AppCompatActivity {
 
     private LayoutInflater mInflater;
@@ -78,12 +80,17 @@ public class MainActivity extends AppCompatActivity {
             public void onTabChanged(String tabId) {
 
                 if(tabId==getString(R.string.cart)){
+                    mMyToolbar.setVisibility(View.VISIBLE);
                     refData();
 
-                } else {
+                } else if(tabId==getString(R.string.mine)){
+                    mMyToolbar.setVisibility(GONE);
+
+                }else {
+                    mMyToolbar.setVisibility(View.VISIBLE);
                     mMyToolbar.showSearchView();
                     mMyToolbar.hideTitleView();
-                    mMyToolbar.getRightButton().setVisibility(View.GONE);
+                    mMyToolbar.getRightButton().setVisibility(GONE);
 
                 }
             }
@@ -94,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void refData() {
+
         if (cartFragment == null) {
 
             Fragment fragment = getSupportFragmentManager().findFragmentByTag(getString(R.string.cart));

@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="032721e35e64ed2f0e074c44d9c7c31c5381a561">
+        sha1="d37443ddad49b37b8ef91c59495e9af260e53b8f">
         <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_123801faf09ecb80bdcb3ad1fda74c4da4693355\classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1a760f65070453caf5be70cee8aa0cb17f1d7993">
+        sha1="8d0b14c414d838387a5ba6f331ca60c66dd91397">
         <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f877bf4405d085adf476015b038418db6c4e5954\classes.dex" />
     </item>
     <item
@@ -342,6 +342,15 @@
         revision="25.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_f7c8f426103bec16dfe3ebd5d41f0efc74a442c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\ASFiles\ShoppingMall\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_40a130bdc9ee61d41d04a4aa8b7c0ebdbeb53942\classes.dex" />
     </item>
     <item
         is-multidex="true"
