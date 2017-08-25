@@ -3,7 +3,6 @@ package com.izdo.shoppingmall.http;
 import android.os.Handler;
 import android.os.Looper;
 import android.text.TextUtils;
-import android.util.Log;
 
 import com.google.gson.Gson;
 import com.izdo.shoppingmall.MyApplication;
@@ -93,28 +92,25 @@ public class OkHttpHelper {
             @Override
             public void onResponse(Response response) throws IOException {
 
-                //                    callback.onResponse(response);
                 callbackResponse(callback,response);
 
                 if(response.isSuccessful()) {
 
                     String resultStr = response.body().string();
 
-                    Log.d(TAG, "result=" + resultStr);
-
                     if (callback.mType == String.class){
                         callbackSuccess(callback,response,resultStr);
                     }
-                    else {
-                        try {
+                else {
+                    try {
 
-                            Object obj = mGson.fromJson(resultStr, callback.mType);
-                            callbackSuccess(callback,response,obj);
-                        }
-                        catch (com.google.gson.JsonParseException e){ // Json解析的错误
-                            callback.onError(response,response.code(),e);
-                        }
+                        Object obj = mGson.fromJson(resultStr, callback.mType);
+                        callbackSuccess(callback,response,obj);
                     }
+                    catch (com.google.gson.JsonParseException e){ // Json解析的错误
+                        callback.onError(response,response.code(),e);
+                    }
+                }
                 }
                 else if(response.code() == TOKEN_ERROR||response.code() == TOKEN_EXPIRE ||response.code() == TOKEN_MISSING ){
 

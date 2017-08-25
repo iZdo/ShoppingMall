@@ -3,7 +3,6 @@ package com.izdo.shoppingmall.fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -22,13 +21,12 @@ import com.izdo.shoppingmall.bean.ShoppingCart;
 import com.izdo.shoppingmall.http.OkHttpHelper;
 import com.izdo.shoppingmall.utils.CartProvider;
 import com.izdo.shoppingmall.widget.MyToolbar;
-import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
 
 import java.util.List;
 
-public class CartFragment extends Fragment implements View.OnClickListener {
+public class CartFragment extends BaseFragment implements View.OnClickListener {
 
     public static final int ACTION_EDIT = 1;
     public static final int ACTION_CAMPLATE = 2;
@@ -57,16 +55,18 @@ public class CartFragment extends Fragment implements View.OnClickListener {
     private OkHttpHelper httpHelper = OkHttpHelper.getInstance();
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View createView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_cart,container,false);
+    }
 
-        View view = inflater.inflate(R.layout.fragment_cart, container, false);
-        ViewUtils.inject(this, view);
 
-        cartProvider = new CartProvider(getContext());
+    @Override
+    public void init() {
 
+        cartProvider = new CartProvider(getActivity());
+
+        changeToolbar();
         showData();
-
-        return view;
     }
 
     @OnClick(R.id.btn_del)
@@ -80,7 +80,7 @@ public class CartFragment extends Fragment implements View.OnClickListener {
 
         Intent intent = new Intent(getActivity(), NewOrderActivity.class);
 
-        //startActivity(intent, true);
+        startActivity(intent, true);
     }
 
     private void showData() {
