@@ -11,7 +11,6 @@ import com.izdo.shoppingmall.http.SpotsCallback;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
-import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.List;
@@ -253,7 +252,7 @@ public class Pager {
         }
 
         @Override
-        public void onFailure(Request request, IOException e) {
+        public void onFailure(Request request, Exception e) {
             dismissDialog();
             Toast.makeText(builder.mContext, "请求出错：" + e.getMessage(), Toast.LENGTH_LONG).show();
 
@@ -287,6 +286,11 @@ public class Pager {
 
                 builder.mRefreshLayout.finishRefreshLoadMore();
             }
+        }
+
+        @Override
+        public void onTokenError(Response response, int code) {
+
         }
     }
 

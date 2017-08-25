@@ -2,7 +2,6 @@ package com.izdo.shoppingmall;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -24,7 +23,7 @@ import java.util.List;
 
 import static android.view.View.GONE;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private LayoutInflater mInflater;
 

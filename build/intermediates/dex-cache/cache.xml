@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d37443ddad49b37b8ef91c59495e9af260e53b8f">
+        sha1="7fa705d8b711828cead60ee5417a4dbc7982b298">
         <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_123801faf09ecb80bdcb3ad1fda74c4da4693355\classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8d0b14c414d838387a5ba6f331ca60c66dd91397">
+        sha1="c7e8c6350a9d7942fc1e372f529d63d32bc86057">
         <dex dex="E:\ASFiles\ShoppingMall\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f877bf4405d085adf476015b038418db6c4e5954\classes.dex" />
     </item>
     <item

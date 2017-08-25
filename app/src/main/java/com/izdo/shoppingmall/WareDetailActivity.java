@@ -2,7 +2,6 @@ package com.izdo.shoppingmall;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
@@ -25,7 +24,7 @@ import dmax.dialog.SpotsDialog;
  * Created by iZdo on 2017/8/22.
  */
 
-public class WareDetailActivity extends AppCompatActivity implements View.OnClickListener {
+public class WareDetailActivity extends BaseActivity implements View.OnClickListener {
 
     @ViewInject(R.id.webView)
     private WebView mWebView;

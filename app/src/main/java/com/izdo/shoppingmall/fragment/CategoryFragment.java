@@ -36,7 +36,6 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
-import java.io.IOException;
 import java.util.List;
 
 public class CategoryFragment extends Fragment {
@@ -127,6 +126,11 @@ public class CategoryFragment extends Fragment {
         mHttpHelper.get(Contants.API.CATEGORY_LIST, new SpotsCallback<List<Category>>(getContext()) {
 
             @Override
+            public void onFailure(Request request, Exception e) {
+
+            }
+
+            @Override
             public void onSuccess(Response response, List<Category> categories) {
                 showCategoryData(categories);
 
@@ -138,6 +142,11 @@ public class CategoryFragment extends Fragment {
 
             @Override
             public void onError(Response response, int code, Exception e) {
+
+            }
+
+            @Override
+            public void onTokenError(Response response, int code) {
 
             }
         });
@@ -177,6 +186,11 @@ public class CategoryFragment extends Fragment {
         mHttpHelper.get(url, new SpotsCallback<List<Banner>>(getContext()) {
 
             @Override
+            public void onFailure(Request request, Exception e) {
+
+            }
+
+            @Override
             public void onSuccess(Response response, List<Banner> banners) {
 
                 showSliderViews(banners);
@@ -184,6 +198,11 @@ public class CategoryFragment extends Fragment {
 
             @Override
             public void onError(Response response, int code, Exception e) {
+
+            }
+
+            @Override
+            public void onTokenError(Response response, int code) {
 
             }
         });
@@ -218,13 +237,14 @@ public class CategoryFragment extends Fragment {
         String url = Contants.API.WARES_LIST + "?categoryId=" + categoryId + "&curPage=" + curPage + "&pageSize=" + pageSize;
 
         mHttpHelper.get(url, new BaseCallback<Page<Wares>>() {
+
             @Override
-            public void onRequestBefore(Request request) {
+            public void onBeforeRequest(Request request) {
 
             }
 
             @Override
-            public void onFailure(Request request, IOException e) {
+            public void onFailure(Request request, Exception e) {
 
             }
 
@@ -245,6 +265,11 @@ public class CategoryFragment extends Fragment {
 
             @Override
             public void onError(Response response, int code, Exception e) {
+
+            }
+
+            @Override
+            public void onTokenError(Response response, int code) {
 
             }
         });

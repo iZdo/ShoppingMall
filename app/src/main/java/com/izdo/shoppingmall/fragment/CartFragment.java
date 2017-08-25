@@ -1,6 +1,7 @@
 package com.izdo.shoppingmall.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,10 +14,12 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.izdo.shoppingmall.MainActivity;
+import com.izdo.shoppingmall.NewOrderActivity;
 import com.izdo.shoppingmall.R;
 import com.izdo.shoppingmall.adapter.CartAdapter;
 import com.izdo.shoppingmall.adapter.decoration.DividerItemDecoration;
 import com.izdo.shoppingmall.bean.ShoppingCart;
+import com.izdo.shoppingmall.http.OkHttpHelper;
 import com.izdo.shoppingmall.utils.CartProvider;
 import com.izdo.shoppingmall.widget.MyToolbar;
 import com.lidroid.xutils.ViewUtils;
@@ -51,6 +54,8 @@ public class CartFragment extends Fragment implements View.OnClickListener {
     private CartAdapter mAdapter;
     private CartProvider cartProvider;
 
+    private OkHttpHelper httpHelper = OkHttpHelper.getInstance();
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -65,9 +70,17 @@ public class CartFragment extends Fragment implements View.OnClickListener {
     }
 
     @OnClick(R.id.btn_del)
-    public void delCart(View view){
+    public void delCart(View view) {
 
         mAdapter.delCart();
+    }
+
+    @OnClick(R.id.btn_order)
+    public void toOrder(View view) {
+
+        Intent intent = new Intent(getActivity(), NewOrderActivity.class);
+
+        //startActivity(intent, true);
     }
 
     private void showData() {
