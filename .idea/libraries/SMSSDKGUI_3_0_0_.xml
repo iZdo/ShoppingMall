@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="SMSSDKGUI-3.0.0-">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/SMSSDKGUI-3.0.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/SMSSDKGUI-3.0.0/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/4a8692924931f71d412db727a6b3f87a11523d13/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4a8692924931f71d412db727a6b3f87a11523d13/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

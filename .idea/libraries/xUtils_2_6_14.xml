@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="xUtils-2.6.14">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.jiechic.library/xUtils/2.6.14/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.jiechic.library/xUtils/2.6.14/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/37ea55cc3bf088f2f8d3972457a6aead58a0bbc2/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/37ea55cc3bf088f2f8d3972457a6aead58a0bbc2/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
